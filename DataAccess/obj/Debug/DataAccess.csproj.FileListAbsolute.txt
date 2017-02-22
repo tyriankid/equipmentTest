@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\DataAccess\obj\Debug\DataAccess.pdb

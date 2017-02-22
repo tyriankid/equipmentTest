@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Model\bin\Debug\eT.Model.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Model\bin\Debug\eT.Model.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Model\obj\Debug\eT.Model.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Model\obj\Debug\eT.Model.pdb

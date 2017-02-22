@@ -1,0 +1,5 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Equipment\bin\Debug\Equipment.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Equipment\bin\Debug\Equipment.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Equipment\obj\Debug\Equipment.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Equipment\obj\Debug\Equipment.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Equipment\obj\Debug\Equipment.pdb

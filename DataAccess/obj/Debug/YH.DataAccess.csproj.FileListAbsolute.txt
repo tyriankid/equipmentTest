@@ -1,0 +1,5 @@
+C:\project\ttl\01工程\03编码\taotaole\YH.DataAccess\bin\Debug\YH.DataAccess.dll
+C:\project\ttl\01工程\03编码\taotaole\YH.DataAccess\bin\Debug\YH.DataAccess.pdb
+C:\project\ttl\01工程\03编码\taotaole\YH.DataAccess\obj\Debug\YH.DataAccess.dll
+C:\project\ttl\01工程\03编码\taotaole\YH.DataAccess\obj\Debug\YH.DataAccess.pdb
+C:\project\ttl\01工程\03编码\taotaole\YH.DataAccess\obj\Debug\YH.DataAccess.csprojResolveAssemblyReference.cache

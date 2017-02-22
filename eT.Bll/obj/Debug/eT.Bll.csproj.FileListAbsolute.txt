@@ -1,0 +1,15 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\eT.Bll.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\eT.Bll.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\eT.Dal.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\eT.Model.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\Utility.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\DataAccess.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\eT.Dal.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\eT.Model.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\Utility.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\DataAccess.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\obj\Debug\eT.Bll.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\obj\Debug\eT.Bll.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\obj\Debug\eT.Bll.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\eT.Common.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Bll\bin\Debug\eT.Common.pdb

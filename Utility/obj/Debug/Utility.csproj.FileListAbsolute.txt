@@ -1,0 +1,4 @@
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Utility\bin\Debug\Utility.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Utility\bin\Debug\Utility.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Utility\obj\Debug\Utility.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Utility\obj\Debug\Utility.pdb

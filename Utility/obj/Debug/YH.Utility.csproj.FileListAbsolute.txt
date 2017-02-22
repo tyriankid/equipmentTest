@@ -1,0 +1,5 @@
+C:\project\ttl\01工程\03编码\taotaole\YH.Utility\bin\Debug\YH.Utility.dll
+C:\project\ttl\01工程\03编码\taotaole\YH.Utility\bin\Debug\YH.Utility.pdb
+C:\project\ttl\01工程\03编码\taotaole\YH.Utility\obj\Debug\YH.Utility.dll
+C:\project\ttl\01工程\03编码\taotaole\YH.Utility\obj\Debug\YH.Utility.pdb
+C:\project\ttl\01工程\03编码\taotaole\YH.Utility\obj\Debug\YH.Utility.csprojResolveAssemblyReference.cache

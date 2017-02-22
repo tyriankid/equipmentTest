@@ -1,0 +1,14 @@
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\Taotaole.Common.dll
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\Taotaole.Common.pdb
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\Taotaole.Dal.dll
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\Taotaole.Model.dll
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\YH.Utility.dll
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\YH.DataAccess.dll
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\Newtonsoft.Json.dll
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\Taotaole.Dal.pdb
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\Taotaole.Model.pdb
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\YH.Utility.pdb
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\bin\Debug\YH.DataAccess.pdb
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\obj\Debug\Taotaole.Common.csprojResolveAssemblyReference.cache
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\obj\Debug\Taotaole.Common.dll
+C:\project\ttl\01工程\03编码\taotaole\Taotaole.Common\obj\Debug\Taotaole.Common.pdb
