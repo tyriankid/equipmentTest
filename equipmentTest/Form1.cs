@@ -41,31 +41,10 @@ namespace equipmentTest
             lbEquipmentName.Text = str;
              */
 
-            string str = "";
-            var subTypeQuery = from t in Assembly.GetExecutingAssembly().GetTypes()
-                               where IsSubClassOf(t, typeof(Equipment.Attribute))
-                               select t;
 
-            foreach (var type in subTypeQuery)
-            {
-                str += type+" ";
-            }
-            lbEquipmentName.Text = str;
         }
 
 
-        static bool IsSubClassOf(Type type, Type baseType)
-        {
-            var b = type.BaseType;
-            while (b != null)
-            {
-                if (b.Equals(baseType))
-                {
-                    return true;
-                }
-                b = b.BaseType;
-            }
-            return false;
-        }
+
     }
 }

@@ -43,9 +43,14 @@
     <Compile Include="Attribute.cs" />
     <Compile Include="Attr\Accuracy.cs" />
     <Compile Include="Attr\Intelligence.cs" />
-    <Compile Include="Equipment.cs" />
+    <Compile Include="Eqpt\Armor.cs" />
+    <Compile Include="Eqpt\Boot.cs" />
+    <Compile Include="EquipmentSingle.cs" />
+    <Compile Include="GNRT\EnvironmentVariable.cs" />
+    <Compile Include="GNRT\Generator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
