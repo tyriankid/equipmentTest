@@ -2,3 +2,8 @@ C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Mo
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Model\bin\Debug\eT.Model.pdb
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Model\obj\Debug\eT.Model.dll
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Model\obj\Debug\eT.Model.pdb
+D:\VSProject\equipmentTest\eT.Model\bin\Debug\eT.Model.dll
+D:\VSProject\equipmentTest\eT.Model\bin\Debug\eT.Model.pdb
+D:\VSProject\equipmentTest\eT.Model\obj\Debug\eT.Model.csprojResolveAssemblyReference.cache
+D:\VSProject\equipmentTest\eT.Model\obj\Debug\eT.Model.dll
+D:\VSProject\equipmentTest\eT.Model\obj\Debug\eT.Model.pdb

@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace Equipment
+namespace Items
 {
-    public class EquipmentSingle
+    public class EquipmentSingle:Item
     {
         private int _equipmentLevel;
         public int equipmentLevel
@@ -23,7 +24,10 @@ namespace Equipment
         /// </summary>
         public string name { get; set; }
 
-
+        public override void Execute()
+        {
+            MessageBox.Show("Use Weapon  " + name);
+        }
 
         /*
         public EquipmentSingle(int level,EquipmentTypeEnum type)
@@ -44,7 +48,7 @@ namespace Equipment
             name = getName();
         }
         */
-    
+
 
 
 

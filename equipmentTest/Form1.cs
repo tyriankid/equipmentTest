@@ -8,8 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using eT.Bll;
-using Equipment;
+using Items;
 using System.Reflection;
+using Items.GNRT;
 
 namespace equipmentTest
 {
@@ -29,6 +30,9 @@ namespace equipmentTest
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Generator.CollectAllEntityClasses();
+            Item eqpt = Generator.generateEqpt();
+            eqpt.Execute();
             /*
             EquipmentSingle equipment = new EquipmentSingle(Convert.ToInt32(txtLevel.Text),EquipmentSingle.EquipmentTypeEnum.Armor);
             Random rd = new Random();

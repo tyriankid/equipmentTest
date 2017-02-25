@@ -21,3 +21,26 @@ C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\equip
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\equipmentTest\obj\Debug\equipmentTest.pdb
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\equipmentTest\bin\Debug\Equipment.dll
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\equipmentTest\bin\Debug\Equipment.pdb
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\equipmentTest.exe.config
+D:\VSProject\equipmentTest\equipmentTest\obj\Debug\equipmentTest.exe
+D:\VSProject\equipmentTest\equipmentTest\obj\Debug\equipmentTest.pdb
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\equipmentTest.exe
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\equipmentTest.pdb
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\eT.Bll.dll
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\Utility.dll
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\eT.Model.dll
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\eT.Dal.dll
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\eT.Common.dll
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\DataAccess.dll
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\eT.Bll.pdb
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\Utility.pdb
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\eT.Model.pdb
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\eT.Dal.pdb
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\eT.Common.pdb
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\DataAccess.pdb
+D:\VSProject\equipmentTest\equipmentTest\obj\Debug\equipmentTest.csprojResolveAssemblyReference.cache
+D:\VSProject\equipmentTest\equipmentTest\obj\Debug\equipmentTest.Form1.resources
+D:\VSProject\equipmentTest\equipmentTest\obj\Debug\equipmentTest.Properties.Resources.resources
+D:\VSProject\equipmentTest\equipmentTest\obj\Debug\equipmentTest.csproj.GenerateResource.Cache
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\Items.dll
+D:\VSProject\equipmentTest\equipmentTest\bin\Debug\Items.pdb

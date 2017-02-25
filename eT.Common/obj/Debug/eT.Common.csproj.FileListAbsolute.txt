@@ -11,3 +11,16 @@ C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Co
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Common\bin\Debug\eT.Common.pdb
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Common\obj\Debug\eT.Common.dll
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Common\obj\Debug\eT.Common.pdb
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\eT.Common.dll
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\eT.Common.pdb
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\eT.Dal.dll
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\eT.Model.dll
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\Utility.dll
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\DataAccess.dll
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\eT.Dal.pdb
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\eT.Model.pdb
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\Utility.pdb
+D:\VSProject\equipmentTest\eT.Common\bin\Debug\DataAccess.pdb
+D:\VSProject\equipmentTest\eT.Common\obj\Debug\eT.Common.csprojResolveAssemblyReference.cache
+D:\VSProject\equipmentTest\eT.Common\obj\Debug\eT.Common.dll
+D:\VSProject\equipmentTest\eT.Common\obj\Debug\eT.Common.pdb

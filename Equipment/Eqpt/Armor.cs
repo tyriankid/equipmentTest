@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Equipment.Eqpt
+namespace Items.Eqpt
 {
     public class Armor:EquipmentSingle
     {
         private readonly EquipmentTypeEnum _eqptType = EquipmentTypeEnum.Armor;
 
-        
+        public Armor()
+        {
+            name = "armor";
+        }
 
         private enum Quality
         {

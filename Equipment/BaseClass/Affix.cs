@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Equipment
+namespace Items
 {
 
 
@@ -31,10 +31,10 @@ namespace Equipment
             switch (attribute.AttributeType)
             {
                 case "Intelligence":
-                    affixName = Enum.GetName(typeof(IntelligenceAffix),attribute.level);
+                    //affixName = Enum.GetName(typeof(IntelligenceAffix),attribute.level);
                     break;
                 case "Accuracy":
-                    affixName = Enum.GetName(typeof(AccuracyAffix), attribute.level);
+                    //affixName = Enum.GetName(typeof(AccuracyAffix), attribute.level);
                     break;
             }
 

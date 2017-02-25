@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Equipment.GNRT
+namespace Items.GNRT
 {
     /// <summary>
     /// 环境变量

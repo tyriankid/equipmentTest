@@ -9,3 +9,14 @@ C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Da
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Dal\obj\Debug\eT.Dal.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Dal\obj\Debug\eT.Dal.dll
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\eT.Dal\obj\Debug\eT.Dal.pdb
+D:\VSProject\equipmentTest\eT.Dal\bin\Debug\eT.Dal.dll
+D:\VSProject\equipmentTest\eT.Dal\bin\Debug\eT.Dal.pdb
+D:\VSProject\equipmentTest\eT.Dal\bin\Debug\DataAccess.dll
+D:\VSProject\equipmentTest\eT.Dal\bin\Debug\eT.Model.dll
+D:\VSProject\equipmentTest\eT.Dal\bin\Debug\Utility.dll
+D:\VSProject\equipmentTest\eT.Dal\bin\Debug\DataAccess.pdb
+D:\VSProject\equipmentTest\eT.Dal\bin\Debug\eT.Model.pdb
+D:\VSProject\equipmentTest\eT.Dal\bin\Debug\Utility.pdb
+D:\VSProject\equipmentTest\eT.Dal\obj\Debug\eT.Dal.csprojResolveAssemblyReference.cache
+D:\VSProject\equipmentTest\eT.Dal\obj\Debug\eT.Dal.dll
+D:\VSProject\equipmentTest\eT.Dal\obj\Debug\eT.Dal.pdb

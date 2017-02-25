@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Equipment.Attr
+namespace Items.Attr
 {
     public class Intelligence:Attribute
     {

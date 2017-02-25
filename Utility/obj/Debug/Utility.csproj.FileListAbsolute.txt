@@ -2,3 +2,8 @@ C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Utili
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Utility\bin\Debug\Utility.pdb
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Utility\obj\Debug\Utility.dll
 C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Utility\obj\Debug\Utility.pdb
+D:\VSProject\equipmentTest\Utility\bin\Debug\Utility.dll
+D:\VSProject\equipmentTest\Utility\bin\Debug\Utility.pdb
+D:\VSProject\equipmentTest\Utility\obj\Debug\Utility.csprojResolveAssemblyReference.cache
+D:\VSProject\equipmentTest\Utility\obj\Debug\Utility.dll
+D:\VSProject\equipmentTest\Utility\obj\Debug\Utility.pdb

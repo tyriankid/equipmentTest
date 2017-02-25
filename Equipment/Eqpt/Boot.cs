@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Equipment.Eqpt
+namespace Items.Eqpt
 {
     public class Boot:EquipmentSingle
     {
