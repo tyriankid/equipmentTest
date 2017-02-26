@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Items.BaseClass;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Items
+namespace Items.Misc
 {
-    public abstract class Item
+    class Gold:Miscs
     {
-        public abstract void Execute();
     }
 }

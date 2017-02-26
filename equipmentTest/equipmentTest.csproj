@@ -78,9 +78,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Equipment\Item.csproj">
+    <ProjectReference Include="..\Items\Items.csproj">
       <Project>{b5d9b9ff-3fe1-40cb-ad7b-e7353a75de77}</Project>
-      <Name>Item</Name>
+      <Name>Items</Name>
     </ProjectReference>
     <ProjectReference Include="..\eT.Bll\eT.Bll.csproj">
       <Project>{e118c9d0-47b4-4252-b8e6-d44b61b84c5d}</Project>

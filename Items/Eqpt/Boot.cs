@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Items.GNRT;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,10 @@ namespace Items.Eqpt
 {
     public class Boot:EquipmentSingle
     {
-        private readonly EquipmentTypeEnum _eqptType = EquipmentTypeEnum.Armor;
+        public Boot(EnvironmentVariable ev):base(ev)
+        {
+            name = "boot";
+
+        }
     }
 }

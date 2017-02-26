@@ -11,6 +11,7 @@ using eT.Bll;
 using Items;
 using System.Reflection;
 using Items.GNRT;
+using Items.BaseClass;
 
 namespace equipmentTest
 {
@@ -30,8 +31,12 @@ namespace equipmentTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Generator.CollectAllEntityClasses();
-            Item eqpt = Generator.generateEqpt();
+            //Generator.CollectAllEntityClasses();
+            EnvironmentVariable ev = new EnvironmentVariable();
+            ev.ilvl = 55;
+            EquipmentSingle eqpt = Generator.generateEquipment(ev);
+            //eqpt.AffixList
+
             eqpt.Execute();
             /*
             EquipmentSingle equipment = new EquipmentSingle(Convert.ToInt32(txtLevel.Text),EquipmentSingle.EquipmentTypeEnum.Armor);
@@ -48,7 +53,9 @@ namespace equipmentTest
 
         }
 
-
-
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

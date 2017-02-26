@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Items.GNRT;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,9 +9,18 @@ namespace Items.Attr
 {
     public class Intelligence:Attribute
     {
-        private readonly AttributeTypes _attrType = AttributeTypes.Intelligence;
 
-        public  Intelligence(int level):base(level)
+        public Intelligence(EnvironmentVariable ev):base(ev)
+        {
+            int affixLevel = ev.ilvl / 10;
+            AffixName = Enum.GetName(typeof(IntelligenceAffix), ((IntelligenceAffix)affixLevel));
+            minValue = affixLevel * 10;
+            maxValue = affixLevel * 10 * 2;
+            Random rd = new Random();
+            trueValue = rd.Next(minValue, maxValue);
+        }
+
+        public override void Execute()
         {
 
         }

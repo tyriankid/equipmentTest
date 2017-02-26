@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Items.GNRT;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,18 +9,24 @@ namespace Items.Eqpt
 {
     public class Armor:EquipmentSingle
     {
-        private readonly EquipmentTypeEnum _eqptType = EquipmentTypeEnum.Armor;
-
-        public Armor()
+        public Armor(EnvironmentVariable ev):base(ev)
         {
-            name = "armor";
+            switch (quality)
+            {
+                case EquipmentSingle.Quality.普通:
+                    NormalArmor[] normalArmors = Enum.GetValues(typeof(NormalArmor)) as NormalArmor[];
+                    Random random = new Random();
+                    name = Enum.GetName(typeof(NormalArmor),normalArmors[random.Next(0, normalArmors.Length)]);
+                    break;
+                case EquipmentSingle.Quality.扩展:
+                    ExtendArmor[] ExtendArmors = Enum.GetValues(typeof(ExtendArmor)) as ExtendArmor[];
+                    Random Extendrandom = new Random();
+                    name = Enum.GetName(typeof(ExtendArmor), ExtendArmors[Extendrandom.Next(0, ExtendArmors.Length)]);
+                    break;
+            }
+            
         }
-
-        private enum Quality
-        {
-            普通,
-            扩展
-        }
+        
 
         public enum NormalArmor
         {

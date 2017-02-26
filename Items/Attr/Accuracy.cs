@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Items.GNRT;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,11 +9,19 @@ namespace Items.Attr
 {
     public class Accuracy:Attribute
     {
-        private readonly AttributeTypes _attrType = AttributeTypes.Accuracy;
-
-        public  Accuracy(int level):base(level)
+        public  Accuracy(EnvironmentVariable ev):base(ev)
         {
+            int affixLevel = ev.ilvl / 10;
+            AffixName = Enum.GetName(typeof(AccuracyAffix), ((AccuracyAffix)affixLevel));
+            minValue = affixLevel * 10;
+            maxValue = affixLevel * 10 * 2;
+            Random rd = new Random();
+            trueValue = rd.Next(minValue, maxValue);
+        }
 
+        public override void Execute()
+        {
+            
         }
 
         /// <summary>

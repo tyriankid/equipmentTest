@@ -40,16 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseClass\Affix.cs" />
     <Compile Include="BaseClass\Attribute.cs" />
     <Compile Include="Attr\Accuracy.cs" />
     <Compile Include="Attr\Intelligence.cs" />
+    <Compile Include="BaseClass\Miscs.cs" />
     <Compile Include="Eqpt\Armor.cs" />
     <Compile Include="Eqpt\Boot.cs" />
     <Compile Include="BaseClass\EquipmentSingle.cs" />
+    <Compile Include="Eqpt\Glove.cs" />
+    <Compile Include="Eqpt\Helmet.cs" />
     <Compile Include="GNRT\EnvironmentVariable.cs" />
     <Compile Include="GNRT\Generator.cs" />
-    <Compile Include="Item.cs" />
+    <Compile Include="BaseClass\Item.cs" />
+    <Compile Include="Misc\Gold.cs" />
+    <Compile Include="Misc\Rune.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />
