@@ -11,20 +11,14 @@ namespace Items.Eqpt
     {
         public Armor(EnvironmentVariable ev):base(ev)
         {
-            switch (quality)
-            {
-                case EquipmentSingle.Quality.普通:
-                    NormalArmor[] normalArmors = Enum.GetValues(typeof(NormalArmor)) as NormalArmor[];
-                    Random random = new Random();
-                    name = Enum.GetName(typeof(NormalArmor),normalArmors[random.Next(0, normalArmors.Length)]);
-                    break;
-                case EquipmentSingle.Quality.扩展:
-                    ExtendArmor[] ExtendArmors = Enum.GetValues(typeof(ExtendArmor)) as ExtendArmor[];
-                    Random Extendrandom = new Random();
-                    name = Enum.GetName(typeof(ExtendArmor), ExtendArmors[Extendrandom.Next(0, ExtendArmors.Length)]);
-                    break;
-            }
-            
+            //根据品质决定名字
+            setNameByQuality(quality);
+        }
+
+        private void setNameByQuality(EquipmentSingle.Quality quality){
+            ExtendArmor[] ExtendArmors = Enum.GetValues(typeof(ExtendArmor)) as ExtendArmor[];
+            Random Extendrandom = new Random();
+            name = Enum.GetName(typeof(ExtendArmor), ExtendArmors[Extendrandom.Next(0, ExtendArmors.Length)]);
         }
         
 

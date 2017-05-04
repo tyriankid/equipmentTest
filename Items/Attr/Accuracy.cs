@@ -11,17 +11,17 @@ namespace Items.Attr
     {
         public  Accuracy(EnvironmentVariable ev):base(ev)
         {
+            this.ev = ev;
+        }
+
+        public override void Execute()
+        {
             int affixLevel = ev.ilvl / 10;
             AffixName = Enum.GetName(typeof(AccuracyAffix), ((AccuracyAffix)affixLevel));
             minValue = affixLevel * 10;
             maxValue = affixLevel * 10 * 2;
             Random rd = new Random();
             trueValue = rd.Next(minValue, maxValue);
-        }
-
-        public override void Execute()
-        {
-            
         }
 
         /// <summary>

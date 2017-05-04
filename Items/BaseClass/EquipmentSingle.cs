@@ -11,12 +11,16 @@ namespace Items
         protected string name;
         protected string affixName;
         protected Quality quality;
-        protected IList<Attribute> attrList;
+        protected IList<Attribute> _attrList;
         
         /// <summary>
         /// 词缀集合
         /// </summary>
-        public IList<Attribute> AttrList = new List<Attribute>();
+        protected IList<Attribute> AttrList
+		{
+            get { return _attrList; }
+            set { _attrList = value; }
+		}
         /// <summary>
         /// 装备名
         /// </summary>
@@ -24,10 +28,13 @@ namespace Items
 
         public override void Execute()
         {
+            string str = "name :"+name;
+            for(int i=0;i< _attrList. Count;i++){
+                str += "\n" + _attrList[i].AffixName + "+" + _attrList[i].trueValue; 
+            }
             
 
-
-            MessageBox.Show("Use Weapon  " + name+" affix count "+AttrList.Count);
+            MessageBox.Show(str);
         }
 
         public EquipmentSingle(EnvironmentVariable ev)
@@ -60,10 +67,10 @@ namespace Items
                 affix_count_max = 4;
             }
 
-            
-            for(int i = 0; i < rd.Next(affix_count_min, affix_count_max); i++){
-                AttrList.Add(Generator.generateAttr(ev));
-                //AttrList[i].Execute();
+            _attrList = new List<Attribute>();
+            for(int i = 0; i < rd.Next(affix_count_min, affix_count_max+1); i++){
+                _attrList.Add(Generator.generateAttr(ev));
+                AttrList[i].Execute();
             }
 
             //决定品质

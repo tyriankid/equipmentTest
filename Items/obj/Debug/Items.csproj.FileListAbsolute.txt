@@ -3,3 +3,8 @@ D:\VSProject\equipmentTest\Items\bin\Debug\Items.pdb
 D:\VSProject\equipmentTest\Items\obj\Debug\Items.csprojResolveAssemblyReference.cache
 D:\VSProject\equipmentTest\Items\obj\Debug\Items.dll
 D:\VSProject\equipmentTest\Items\obj\Debug\Items.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Items\bin\Debug\Items.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Items\bin\Debug\Items.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Items\obj\Debug\Items.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Items\obj\Debug\Items.dll
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\Items\obj\Debug\Items.pdb

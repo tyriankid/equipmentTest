@@ -22,9 +22,6 @@ namespace Items.GNRT
         public static Dictionary<string, Type> equipmentClassesDict = new Dictionary<string, Type>();
         public static Dictionary<string, Type> miscClassesDict = new Dictionary<string, Type>();
         
-
-        
-
         /// <summary>
         /// item 子类生成基数
         /// </summary>
@@ -122,7 +119,7 @@ namespace Items.GNRT
             }
             //根据基数总数为随机数上限,然后在数组中随机取值,对应的类型就是当前要生成的装备类型
             Random rd = new Random();
-            return Activator.CreateInstance((Type)baseNumberList[rd.Next(baseNumTotal+1)]) as Miscs;
+            return Activator.CreateInstance((Type)baseNumberList[rd.Next(baseNumTotal)]) as Miscs;
         }
 
         /// <summary>
@@ -152,7 +149,7 @@ namespace Items.GNRT
             }
             //根据基数总数为随机数上限,然后在数组中随机取值,对应的类型就是当前要生成的装备类型
             Random rd = new Random();
-            return Activator.CreateInstance((Type)baseNumberList[rd.Next(baseNumTotal+1)],ev) as Attribute;
+            return Activator.CreateInstance((Type)baseNumberList[rd.Next(baseNumTotal)],ev) as Attribute;
 
         }
 
@@ -184,7 +181,7 @@ namespace Items.GNRT
             }
             //根据基数总数为随机数上限,然后在数组中随机取值,对应的类型就是当前要生成的装备类型
             Random rd = new Random();
-            return (EquipmentSingle.Quality)baseNumberList[rd.Next(baseNumTotal+1)] ;
+            return (EquipmentSingle.Quality)baseNumberList[rd.Next(baseNumTotal)] ;
 
         }
 

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "equipmentTest", "equipmentTest\equipmentTest.csproj", "{7BDFD5AE-BE9E-40BB-AA8C-CAE2F95C4D49}"
 EndProject
@@ -27,6 +27,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Items", "Items\Items.csproj", "{B5D9B9FF-3FE1-40CB-AD7B-E7353A75DE77}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "物品", "物品", "{821C2BB9-C473-4073-8D32-E4E37EBBC040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "第三方Dll", "第三方Dll", "{D77F8ED5-A1C9-44A1-AF78-D968A7E49C00}"
+	ProjectSection(SolutionItems) = preProject
+		equipmentTest\bin\Debug\Newtonsoft.Json.dll = equipmentTest\bin\Debug\Newtonsoft.Json.dll
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

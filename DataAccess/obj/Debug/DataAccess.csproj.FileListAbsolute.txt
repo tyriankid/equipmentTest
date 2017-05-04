@@ -7,3 +7,4 @@ D:\VSProject\equipmentTest\DataAccess\bin\Debug\DataAccess.pdb
 D:\VSProject\equipmentTest\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 D:\VSProject\equipmentTest\DataAccess\obj\Debug\DataAccess.dll
 D:\VSProject\equipmentTest\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Administrator\documents\visual studio 2012\Projects\equipmentTest\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache

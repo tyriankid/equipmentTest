@@ -32,6 +32,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -78,6 +82,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\eT.Common\eT.Common.csproj">
+      <Project>{76acfd5f-45aa-4c31-b4a7-ded7f89a1a71}</Project>
+      <Name>eT.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Items\Items.csproj">
       <Project>{b5d9b9ff-3fe1-40cb-ad7b-e7353a75de77}</Project>
       <Name>Items</Name>

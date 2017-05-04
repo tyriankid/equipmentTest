@@ -22,7 +22,7 @@ namespace Items.Attr
 
         public override void Execute()
         {
-
+            //throw new NotImplementedException();
         }
 
         /// <summary>
