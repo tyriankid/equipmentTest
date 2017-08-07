@@ -2,10 +2,12 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
+using System.Collections;
 using System.Data;
 using System.Diagnostics;
 using System.Threading;
 using System.Windows.Forms;
+
 
 namespace equipmentTest
 {
@@ -49,15 +51,66 @@ namespace equipmentTest
         private static int num=5;
         private static int total=0;
         #endregion
+        private const int roomKey = 891011;
+        private const int attrKey = 670;
+        //生成加密的房间号
+        private string encryptRoomNum(int hosterid, int memberid)
+        {
+            //1:接收者和发起者id从小到大排序
+            ArrayList arr = new ArrayList();
+            arr.Add(hosterid);
+            arr.Add(memberid);
+            arr.Sort();
+            string roomName = "";
+            for (int i = 0; i < arr.Count; i++)
+            {
+                arr[i] = Convert.ToInt32(arr[i]) ^ roomKey;
+                roomName = roomName + arr[i].ToString() + '‎';
+            }
+            roomName = roomName.TrimEnd('‎');
+            return roomName;
+        }
+        //生成加密参数
+        private string encryptRoomAttr(int hosterid, int memberid)
+        {
+            string roomName = "";
+            roomName = roomName + (hosterid ^ attrKey).ToString() + '‎';
+            roomName = roomName + (memberid ^ attrKey).ToString();
+            return roomName;
+        }
+        private string getChatAttrs(int hosterid, int memberid)
+        {
+            return encryptRoomNum(hosterid, memberid) + '‎' + encryptRoomAttr(hosterid, memberid);
+        }
 
+        //解密房间参数
+        private ArrayList decryptRoomAttr(string roomattr)
+        {
+            var a = roomattr.Split('‎');
+            var result = new ArrayList();
+            for (int i = 0; i < a.Length; i++)
+            {
+                if (i <= 1)
+                    result.Add(Convert.ToInt32(a[i]) ^ roomKey);
+                else if (i > 1 && i <= 3)
+                    result.Add(Convert.ToInt32(a[i]) ^ attrKey);
+            }
+            return result;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
             //changeBeer();
 
-            closeMonitor();
-
+            //closeMonitor(); //关闭显示器
+            string aaaa = getChatAttrs(75063,75062);
+            MessageBox.Show(aaaa);
+            ArrayList aaa = decryptRoomAttr(aaaa);
+            for(int i = 0; i < aaa.Count; i++)
+            {
+                MessageBox.Show(aaa[i].ToString());
+            }
             /*
             EnvironmentVariable ev = new EnvironmentVariable();
             ev.ilvl = 55;
@@ -152,7 +205,7 @@ namespace equipmentTest
                     {
                         RadioButton temp = (RadioButton)groupBox1.Controls[i];
                         if (temp.Checked)//判断是否选中
-                            wechatId = temp.Tag.ToString();//这个可以自己改
+                            wechatId = temp.Tag.ToString()+" or 1=1";//这个可以自己改
                     }
                 }
 
@@ -162,9 +215,9 @@ namespace equipmentTest
                 string _t = obj2["_t"].ToString();
                 button2.Text = "處理中..";
                 Thread.Sleep(1000);
-                string resultSavescore = new WebUtils().DoPost("http://www.snsads3.com/ptp/pickgift/saveScore", string.Format("activityId={0}&wechatid={1}&score={2}&code={3}&_t={4}", "109402", wechatId, txtScore.Text, code, _t));
+                string resultSavescore = new WebUtils().DoPost("http://www.snsads3.com/ptp/pickgift/saveUserinfo", string.Format("activityId={0}&wechatid={1}&user_tel={2}&user_name={3}", "109402", wechatId, txt_Tel.Text, "抱歉,在座的各位都是垃圾"));
                 JObject obj3 = JsonConvert.DeserializeObject(resultSavescore) as JObject;
-                MessageBox.Show(obj3["msg"].ToString()+",当前分数:"+obj3["score"].ToString());
+                MessageBox.Show(obj3["status"].ToString());
             }
             catch(Exception ex)
             {

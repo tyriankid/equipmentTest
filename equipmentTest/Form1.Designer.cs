@@ -35,17 +35,19 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtScore = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.txt_Tel = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(99, 146);
+            this.button1.Location = new System.Drawing.Point(102, 185);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(122, 23);
             this.button1.TabIndex = 0;
@@ -71,7 +73,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(18, 146);
+            this.button2.Location = new System.Drawing.Point(21, 185);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
             this.button2.TabIndex = 3;
@@ -97,6 +99,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.radioButton6);
             this.groupBox1.Controls.Add(this.radioButton5);
             this.groupBox1.Controls.Add(this.radioButton4);
             this.groupBox1.Controls.Add(this.radioButton3);
@@ -109,6 +112,30 @@
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "列表";
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(68, 61);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(59, 16);
+            this.radioButton6.TabIndex = 6;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Tag = "obW4vs_abXYJU_cHpMn_iPvdpwUU";
+            this.radioButton6.Text = "程诗雨";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(6, 61);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(59, 16);
+            this.radioButton5.TabIndex = 5;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Tag = "obW4vs8K6JZ6SvRd06rczwP4dtYI";
+            this.radioButton5.Text = "断水流";
+            this.radioButton5.UseVisualStyleBackColor = true;
             // 
             // radioButton4
             // 
@@ -158,23 +185,19 @@
             this.radioButton1.Text = "小洪";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // radioButton5
+            // txt_Tel
             // 
-            this.radioButton5.AutoSize = true;
-            this.radioButton5.Location = new System.Drawing.Point(6, 61);
-            this.radioButton5.Name = "radioButton5";
-            this.radioButton5.Size = new System.Drawing.Size(59, 16);
-            this.radioButton5.TabIndex = 5;
-            this.radioButton5.TabStop = true;
-            this.radioButton5.Tag = "obW4vs8K6JZ6SvRd06rczwP4dtYI";
-            this.radioButton5.Text = "断水流";
-            this.radioButton5.UseVisualStyleBackColor = true;
+            this.txt_Tel.Location = new System.Drawing.Point(57, 145);
+            this.txt_Tel.Name = "txt_Tel";
+            this.txt_Tel.Size = new System.Drawing.Size(100, 21);
+            this.txt_Tel.TabIndex = 10;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(236, 173);
+            this.ClientSize = new System.Drawing.Size(236, 220);
+            this.Controls.Add(this.txt_Tel);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.txtScore);
             this.Controls.Add(this.label2);
@@ -205,6 +228,8 @@
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.TextBox txt_Tel;
     }
 }
 
